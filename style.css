@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -12,13 +11,13 @@
 }
 
 body {
-   background-color: var(--secondary-color);
-   font-family: 'Questrial', sans-serif;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-   margin: 0;
+    background-color: var(--secondary-color);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .phone {
@@ -75,9 +74,6 @@ nav ul li p {
     margin: 2px 0;
 }
 
-nav ul li:hover,
-nav ul li:active {
+nav ul li:hover, nav ul li.active {
     color: var(--secondary-color);
 }
-
-
